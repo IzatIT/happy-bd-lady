@@ -7,10 +7,6 @@ import { Title } from './components/title';
 
 function App() {
 
-  const handleClickLogo = () => {
-    window.open("https://ukuk.gp.kg", "_blank");
-  };
-
   useEffect(() => {
     const handleLoad = () => {
       setTimeout(() => {
@@ -26,7 +22,7 @@ function App() {
     <div className="not-loaded">
       <div className='content'>
         <Title />
-        <img onClick={handleClickLogo} className='logo' src="/logo.png" />
+        <img className='logo' src="/logo.png" />
       </div>
       <div className="night"></div>
       <div className="flowers">
