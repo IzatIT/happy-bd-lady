@@ -27,7 +27,7 @@ function App() {
           color: "white",
           maxWidth: "900px",
           textAlign: "center",
-          fontSize: "18px",
+          fontSize: "16px",
           lineHeight: "24px",
           padding: "0 20px",
           margin: "10px 10px 0",

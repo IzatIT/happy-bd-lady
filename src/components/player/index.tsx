@@ -127,7 +127,7 @@ export function Player() {
                 <div style={{
                     display: 'flex',
                     flexDirection: 'column',
-                    gap: '0.5rem',
+                    gap: '0.2rem',
                     maxWidth: '1200px',
                     margin: '0 auto'
                 }}>
@@ -135,11 +135,11 @@ export function Player() {
                         display: 'flex',
                         justifyContent: 'space-between',
                         alignItems: 'center',
-                        marginBottom: '0.5rem'
+                        marginBottom: '0.2rem'
                     }}>
                         <div>
-                            <h3 style={{ margin: 0, fontSize: '1.1rem'}}>{currentTrack.name}</h3>
-                            <p style={{ margin: 0, fontSize: '0.9rem', color: '#aaa' }}>
+                            <h3 style={{ margin: 0, fontSize: '1rem'}}>{currentTrack.name}</h3>
+                            <p style={{ margin: 0, fontSize: '0.6rem', color: '#aaa' }}>
                                 {currentTrackIndex + 1} из {audios.length}
                             </p>
                         </div>
@@ -150,7 +150,7 @@ export function Player() {
                             gap: '0.5rem',
                             width: '150px'
                         }}>
-                            <span>🔈</span>
+                            <img src={"/assets/sound-down.svg"} width={20} height={20} alt=""/>
                             <input
                                 type="range"
                                 min="0"
@@ -160,7 +160,7 @@ export function Player() {
                                 onChange={handleVolumeChange}
                                 style={{ width: '100%' }}
                             />
-                            <span>🔊</span>
+                            <img src={"/assets/sound-up.svg"} width={20} height={20} alt=""/>
                         </div>
                     </div>
 
@@ -193,7 +193,7 @@ export function Player() {
                         justifyContent: 'center',
                         alignItems: 'center',
                         gap: '1.5rem',
-                        marginTop: '0.5rem'
+                        marginTop: '0.2rem'
                     }}>
                         <button
                             onClick={playPrevious}
@@ -205,7 +205,7 @@ export function Player() {
                                 cursor: 'pointer'
                             }}
                         >
-                            ⏮
+                            <img src={"/assets/prev.svg"} width={24} height={24} alt=""/>
                         </button>
 
                         <button
@@ -256,7 +256,7 @@ export function Player() {
                                 cursor: 'pointer'
                             }}
                         >
-                            ⏭
+                            <img src={"/assets/next.svg"} width={24} height={24} alt=""/>
                         </button>
                     </div>
                 </div>

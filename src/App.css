@@ -8,7 +8,7 @@
 
 @media (max-width: 768px) {
   .flowers {
-    bottom: 100px;
+    bottom: 100px !important;
   }
 }
 
@@ -52,7 +52,7 @@
 
 .flowers {
   position: relative;
-  bottom: 200px;
+  bottom: 200px !important;
   transform: scale(0.7);
 }
 
