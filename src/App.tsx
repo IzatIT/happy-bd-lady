@@ -29,7 +29,6 @@ function App() {
           textAlign: "center",
           fontSize: "16px",
           lineHeight: "24px",
-          padding: "0 20px",
           margin: "10px 10px 0",
           backgroundColor: "rgba(255,255,255,0.1)",
           backdropFilter: "blur(10px)",
