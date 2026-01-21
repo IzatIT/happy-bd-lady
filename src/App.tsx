@@ -4,6 +4,7 @@
 import { useEffect } from 'react'
 import './App.css'
 import { Title } from './components/title';
+import {Player} from "./components/player";
 
 function App() {
 
@@ -22,8 +23,24 @@ function App() {
     <div className="not-loaded">
       <div className='content'>
         <Title />
-        <img className='logo' src="/logo.png" />
+        <p style={{
+          color: "white",
+          maxWidth: "900px",
+          textAlign: "center",
+          fontSize: "18px",
+          lineHeight: "24px",
+          padding: "0 20px",
+          margin: "10px 10px 0",
+          backgroundColor: "rgba(255,255,255,0.1)",
+          backdropFilter: "blur(10px)",
+          borderRadius: "30px",
+          padding: "10px"}}>
+          Красотка желаю тебе мощного головокружения от крутых идей, душевного спокойствия и железного здоровья.
+          Желаю хренава тучу счастья, денег, везения и моментов,, чтобы всегда с кайфом ходить.
+          Счастья, благополучия, верных друзей и безпроблемного будущего — обнял, приподнял, покружил и поставил)
+        </p>
       </div>
+        <Player/>
       <div className="night"></div>
       <div className="flowers">
         <div className="flower flower--1">

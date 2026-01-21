@@ -7,10 +7,9 @@
 }
 
 @media (max-width: 768px) {
-  .logo{
-    width: 100%;
+  .flowers {
+    bottom: 100px;
   }
-  
 }
 
 .content {
@@ -53,9 +52,11 @@
 
 .flowers {
   position: relative;
-  bottom: 0;
+  bottom: 200px;
   transform: scale(0.7);
 }
+
+
 
 .flower {
   position: absolute;
