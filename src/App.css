@@ -6,12 +6,6 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 768px) {
-  .flowers {
-    bottom: 100px !important;
-  }
-}
-
 .content {
   position: absolute;
   left: 50%;
@@ -52,11 +46,9 @@
 
 .flowers {
   position: relative;
-  bottom: 200px !important;
+  bottom: 70px;
   transform: scale(0.7);
 }
-
-
 
 .flower {
   position: absolute;
